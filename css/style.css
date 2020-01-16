@@ -1,0 +1,197 @@
+@import url(fonts.css);
+@import url(partial/_variables.css);
+
+.logo {
+    height: 7rem;
+    padding-left: 1.5rem;
+}
+
+.header-area .main-menu .navbar .navbar-brand {
+    padding: 0 2rem 0 2rem;
+    width: 6rem;
+}
+
+.header-area .main-menu .navbar {
+    padding: 1rem 10rem 1rem 7rem;
+}
+
+.header-area .main-menu .nav-item .nav-link {
+    font: normal 500 15px/2px var(--muli);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header-area .main-menu .navbar-nav .active a {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.site-main .site-banner {}
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 35%;
+    font-weight: 700;
+    font-family: var(--lobs);
+    font-size: 2.8rem;
+}
+
+.site-main .site-banner .site-title h1 {
+    font-size: 4rem;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1rem;
+    opacity: .6;
+    padding-left: 15.5rem;
+}
+
+.site-buttons {
+    padding: 1rem 0 0 11rem;
+}
+
+.site-main .site-banner .banner-image > img {
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+.title-text {
+    font: normal bold 50px/72px var(--muli);
+}
+
+.button {
+    padding: 0.8rem 2.2rem;
+    font: normal 500 16px/20px var(--muli);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.button.primary-button {
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: aliceblue;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.button.primary-button:hover {
+    background: aliceblue;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.primary-button::after,
+.button.secondary-button::after {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    background: var(--gradient-color);
+    content: '';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.button.secondary-button {
+    background: white;
+    background-clip: padding-box;
+    transition: background .6s ease;
+}
+
+.button.secondary-button:hover {
+    background: var(--gradient-color);
+    color: aliceblue;
+    box-shadow: var(--box-shadow);
+}
+
+.site-main .about-area {
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+    display: block;
+    font: normal bold 49px/60px var(--muli);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p {
+    padding: 0.4rem 0;
+}
+
+p.para {
+    color: var(--text-color);
+    font: normal 500 16px/25px var(--muli);
+}
+
+.site-main .subscribe-us-area .subscribe {
+    background: url(../img/subscribe-bg.png) no-repeat;
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title h4 {
+    font: normal 700 30px/30px var(--muli);
+    color: aliceblue;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title p {
+    color: aliceblue;
+    padding: 1rem 4rem;
+}
+
+
+
+.site-main .subscribe-us-area .subscribe form .btn-submit buttom {
+    background: aliceblue;
+    color: black;
+    padding: .7rem 2rem;
+}
+.site-main .subscribe-us-area .subscribe form .btn-submit {
+    padding-left: 39rem;
+    padding-top: 1rem;
+}
+
+footer.footer-area {
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5 {
+    font: normal 500 23px/30px var(--muli);
+}
+
+footer.footer-area .social a > i {
+    font-size: 22px;
+    padding: 2rem;
+}
+
+.fa-instagram {
+    color: crimson;
+}
+
+.fa-twitter {
+    color: darkturquoise;
+}
+
+.navbar-fixed {
+    position: fixed;
+    widows: 100%;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: aliceblue;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: background 1s ease;
+}
